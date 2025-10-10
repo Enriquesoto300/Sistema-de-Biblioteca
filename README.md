@@ -25,7 +25,7 @@ El programa utiliza una interfaz de **menús por consola**, que permite navegar 
 ## Tecnologías utilizadas
 
 - **Python 3.10+**
-- **MySQL Server**
+- **MySQL workbench**
 - **mysql-connector-python** (para la conexión con la base de datos)
 - **datetime**, **os**, y **logging** (para manejo de fechas y registros)
 
