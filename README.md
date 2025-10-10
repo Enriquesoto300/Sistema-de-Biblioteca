@@ -33,12 +33,10 @@ El programa utiliza una interfaz de **menús por consola**, que permite navegar 
 
 ## Requisitos
 
-Antes de ejecutar el proyecto, asegúrate de tener instalado:
+Antes de ejecutar el proyecto, asegúrate de tener instalado mysql-connector:
 
-```bash
-sudo apt update
-sudo apt install python3 python3-pip mysql-server
-pip install mysql-connector-python
+```pip install mysql-connector-python
+
 ```
 
 ## Crea la base de datos y las tablas necesarias:
