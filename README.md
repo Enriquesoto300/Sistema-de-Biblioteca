@@ -35,7 +35,8 @@ El programa utiliza una interfaz de **menús por consola**, que permite navegar 
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado mysql-connector:
 
-```pip install mysql-connector-python
+```
+pip install mysql-connector-python
 
 ```
 
