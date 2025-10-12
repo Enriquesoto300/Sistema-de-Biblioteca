@@ -128,6 +128,7 @@ Cada submenú te permitirá agregar, listar, editar o eliminar registros según 
 
 Cada entidad (Libro, Usuario, Prestamo) tiene sus propios atributos y métodos.
 
+- 
 
 - Abstracción:
 
@@ -154,10 +155,24 @@ Cada módulo tiene un propósito claro, mejorando la mantenibilidad.
 
 ```
 ---
-## Interfaz  por terminal 
 
-interfaz_terminal(r"C:\Users\Trans\Downloads\Sistema-de-Biblioteca\Captura\terminal.png")
+## Mejoras respecto al código original
+
+| **Aspecto** | **Código original** | **Versión mejorada** |
+|--------------|---------------------|----------------------|
+| **Interfaz** | Interacción básica con `input()` y `print()` | Menús estructurados y navegación interactiva por consola |
+| **Validaciones** | No validaba entradas ni errores comunes | Se validan campos vacíos, IDs inválidos y disponibilidad de libros |
+| **Consultas SQL** | Usaba consultas sin parámetros | Implementación de **consultas parametrizadas** para evitar inyecciones SQL |
+| **Registro de acciones (Logs)** | No existía registro de eventos | Sistema de **logs** que guarda operaciones y errores en `logs.txt` |
+| **Gestión de préstamos** | No verificaba disponibilidad | Comprueba disponibilidad del libro y existencia del usuario antes de registrar el préstamo |
+| **Devolución de libros** | No implementado completamente | Opción para **devolver libros** y marcar como disponibles nuevamente |
+| **Mensajes al usuario** | Salidas genéricas y poco descriptivas | Mensajes claros y diferenciados por tipo (éxito, error, información) |
+| **Estructura del código** | Código monolítico sin separación lógica | Modularización: clases, conexión y funciones separadas para mayor mantenimiento |
+
+
+
 
 ---
-## Autor 
-### Enrique Soto
+## Interfaz  por terminal 
+
+![Menú principal del sistema](Captura/terminal.png)
