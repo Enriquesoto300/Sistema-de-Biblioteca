@@ -128,7 +128,7 @@ Cada submenú te permitirá agregar, listar, editar o eliminar registros según 
 
 Cada entidad (Libro, Usuario, Prestamo) tiene sus propios atributos y métodos.
 
-- 
+
 
 - Abstracción:
 
