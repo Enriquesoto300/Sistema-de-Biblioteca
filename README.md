@@ -108,9 +108,9 @@ python biblioteca.py
 
 ```
 === Sistema de Biblioteca ===
-1. Gestionar Libros
-2. Gestionar Usuarios
-3. Gestionar Préstamos
+1. Libros
+2. Usuarios
+3. Préstamos
 4. Salir
 Seleccione una opción:
 
