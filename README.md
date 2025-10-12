@@ -176,3 +176,8 @@ Cada módulo tiene un propósito claro, mejorando la mantenibilidad.
 ## Interfaz  por terminal 
 
 ![Menú principal del sistema](Captura/terminal.png)
+
+## Autor
+### Enrique Soto
+
+
