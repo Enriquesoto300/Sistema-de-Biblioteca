@@ -55,8 +55,8 @@ Diseñado para permitir agregar fácilmente nuevas funciones o entidades (por ej
 #### 2. Clonar el repositorio
 
 ```
-git clone https://github.com/EnriqueSoto300/sistema-biblioteca.git
-cd sistema-biblioteca
+git clone https://github.com/EnriqueSoto300/sistema-de-biblioteca.git
+cd sistema-de-biblioteca
 
 
 ```
